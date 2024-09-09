@@ -9,7 +9,7 @@ export default function Body() {
                     <Stories/>
                     <Posts/>
                 </div>
-                <div class="esquerda">   
+                <div class="sidebar">   
                     <SideBar/>
                 </div>
         </div>
