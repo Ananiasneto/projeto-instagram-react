@@ -13,7 +13,7 @@ export default function User() {
 
 
  function mudaImg(){
-  let novaImg=prompt("digite novo nome");
+  let novaImg=prompt("digite o link da nova imagem");
   if (novaImg){
     setImagemUser(novaImg);
   }
@@ -21,9 +21,9 @@ export default function User() {
 
 
     return (
-      <div class="usuario">
+      <div className="usuario">
           <img onClick={mudaImg} src={imagemUser} alt="imagem de perfil"/>
-          <div class="texto">
+          <div className="texto">
             <span>
               <strong>{nome}</strong>
               <ion-icon onClick={mudaNome} name="pencil"></ion-icon>
